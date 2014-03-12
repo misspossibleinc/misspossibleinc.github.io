@@ -1,4 +1,7 @@
 body{
+	/*background: url("../images/landing_page_bkgd-01.png");
+	background-size: 100% auto;
+	background-repeat: no-repeat;*/
 	width: 1024px;
 	margin-left: auto;
 	margin-right: auto;
@@ -22,4 +25,9 @@ h3 {
 	width: 400px;
 	float: right;
 	margin-left: 20px;
+}
+.Story{
+	/*position: relative;
+	left: 30px;
+	top: 300px;*/
 }
