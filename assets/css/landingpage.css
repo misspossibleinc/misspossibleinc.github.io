@@ -1,20 +1,21 @@
 body{
-	/*background: url("../images/landing_page_bkgd-01.png");
+	background: url("../images/landing_page_bkgd.png");
 	background-size: 100% auto;
-	background-repeat: no-repeat;*/
-	width: 1024px;
+	background-repeat: no-repeat;
 	margin-left: auto;
 	margin-right: auto;
 }
 h3 {
 	color: #5C5C5C;
 	text-align:left;
-	font-size: 14pt;
+	font-size: 13pt;
 	font-family: helvetica;
 	padding-bottom: 5px;
 	margin-left: auto;
 	margin-right: auto;
-
+}
+h2{
+	font-family: 'libbyhandmedium';
 }
 .Banner {
 	display: block;
@@ -22,12 +23,31 @@ h3 {
     margin-right: auto; 
 }
 .socialMedia{
-	width: 400px;
-	float: right;
-	margin-left: 20px;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
 }
 .Story{
-	/*position: relative;
-	left: 30px;
-	top: 300px;*/
+	position: fixed;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+}
+.Explanation{
+	position: relative;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+}
+@font-face {
+    font-family: 'libbyhandmedium';
+    src: url('../fonts/libbyhand-webfont.eot');
+    src: url('../fonts/libbyhand-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/libbyhand-webfont.woff') format('woff'),
+         url('../fonts/libbyhand-webfont.ttf') format('truetype'),
+         url('../fonts/libbyhand-webfont.svg#libbyhandmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
