@@ -1,10 +1,9 @@
 body{
-	background: url("../images/purple-01.png");
+	background: url("../images/landing_page_bkgd.png");
 	background-size: 100% auto;
 	background-repeat: no-repeat;
 	margin-left: auto;
 	margin-right: auto;
-	width: 60%;
 }
 h3 {
 	color: #5C5C5C;
@@ -29,25 +28,17 @@ h2{
 	margin-right: auto;
 }
 .Story{
-	background-image: url("../images/green-bkgrd-01.png");
-	background-size: 60% auto;
-	background-repeat: no-repeat;
 	position: fixed;
 	width: 50%;
 	margin-left: auto;
 	margin-right: auto;
 }
-#banner{
-	margin-left: auto;
-	margin-right: auto;
-	width: 60%;
-}
-/*.Explanation{
+.Explanation{
 	position: relative;
 	width: 50%;
 	margin-left: auto;
 	margin-right: auto;
-}*/
+}
 @font-face {
     font-family: 'libbyhandmedium';
     src: url('../fonts/libbyhand-webfont.eot');
