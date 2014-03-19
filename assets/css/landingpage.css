@@ -3,28 +3,16 @@ body{
 	/*background: url("../images/purple-01.png");
 	background-size: 100% auto;
 	background-repeat: no-repeat;*/
-	margin-left: auto;
-	margin-right: auto;
 	width: 960px;
-}
-h3 {
-	color: #5C5C5C;
-	text-align:left;
-	font-size: 13pt;
-	font-family: helvetica;
-	padding-bottom: 5px;
 	margin-left: auto;
 	margin-right: auto;
-}
-h2{
-	font-family: 'libbyhandmedium';
 }
 .wrapper{
-	width: 1024px;
+	width: 960px;
 	margin: 0 auto;
 }
 #lr-widget{
-	width: 100%;
+	width: 960px;
 	margin-right: auto;
 	margin-left: auto;
 }
