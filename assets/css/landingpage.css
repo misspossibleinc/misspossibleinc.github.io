@@ -30,8 +30,10 @@ body{
 }
 #mainnav{
 	text-align: center !important;
-	background-color: white;
-	border: none;
+}
+.navbar{
+	background-color: white !important;
+	border: none !important;
 }
 .socialMedia{
 	float: none;
