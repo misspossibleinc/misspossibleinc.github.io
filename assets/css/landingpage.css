@@ -23,27 +23,18 @@ h2{
 	width: 1024px;
 	margin: 0 auto;
 }
-.Banner {
-	display: block;
-    margin-left: auto;
-    margin-right: auto; 
-}
-.socialMedia{
-	width: 50%;
-	margin-left: auto;
-	margin-right: auto;
-}
-.Story{
-	position: fixed;
+#lr-widget{
 	width: 100%;
-	margin-left: auto;
 	margin-right: auto;
+	margin-left: auto;
 }
-.Explanation{
-	position: relative;
-	width: 50%;
-	margin-left: auto;
-	margin-right: auto;
+.jumbotron{
+	padding: 0px;
+	margin: 0px;
+	background-color: white;
+}
+.navbar-text{
+	font-family: 'libbyhandmedium';
 }
 @font-face {
     font-family: 'libbyhandmedium';
@@ -55,13 +46,4 @@ h2{
     font-weight: normal;
     font-style: normal;
 }
-#lr-widget{
-	width: 100%;
-	margin-right: auto;
-	margin-left: auto;
-}
-.jumbotron{
-	padding: 0px;
-	margin: 0px;
-	background-color: white;
-}
+
