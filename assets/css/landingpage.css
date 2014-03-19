@@ -55,3 +55,8 @@ h2{
     font-weight: normal;
     font-style: normal;
 }
+#lr-widget{
+	width: 1024px;
+	margin-right: auto;
+	margin-left: auto;
+}
