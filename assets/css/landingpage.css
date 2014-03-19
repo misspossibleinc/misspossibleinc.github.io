@@ -10,6 +10,7 @@ body{
 	width: 960px !important;
 	margin-right: auto !important;
 	margin-left: auto !important;
+	padding: 0px !important;
 }
 .jumbotron{
 	padding: 0px;
