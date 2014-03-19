@@ -6,11 +6,11 @@ body{
 	width: 960px;
 	margin: 0 auto !important;
 }
-#lr-widget{
+/*#lr-widget{
 	width: 50% !important;
 	margin-right: auto !important;
 	margin-left: auto !important;
-}
+}*/
 .jumbotron{
 	padding: 0px;
 	margin: 0px;
@@ -18,7 +18,7 @@ body{
 }
 .navbar-nav li{
 	font-family: 'libbyhandmedium';
-	padding-top: 20px;
+	padding-top: 15px;
 	padding-right: 20px;
 }
 .navbar-brand{
