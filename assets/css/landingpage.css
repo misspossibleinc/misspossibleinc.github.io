@@ -3,11 +3,14 @@ body{
 	/*background: url("../images/purple-01.png");
 	background-size: 100% auto;
 	background-repeat: no-repeat;*/
+	margin: 0 auto !important;
+}
+.centeredElements{
 	width: 960px;
 	margin: 0 auto !important;
 }
 #lr-widget{
-	width: 960px !important;
+	width: 100% !important;
 	margin-right: auto !important;
 	margin-left: auto !important;
 	padding: 0px !important;
