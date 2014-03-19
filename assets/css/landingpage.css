@@ -6,11 +6,11 @@ body{
 	width: 960px;
 	margin: 0 auto !important;
 }
-/*#lr-widget{
-	width: 50% !important;
+#lr-widget{
+	width: 960px !important;
 	margin-right: auto !important;
 	margin-left: auto !important;
-}*/
+}
 .jumbotron{
 	padding: 0px;
 	margin: 0px;
