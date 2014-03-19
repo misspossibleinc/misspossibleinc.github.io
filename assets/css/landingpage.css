@@ -36,6 +36,17 @@ h2{
 .navbar-text{
 	font-family: 'libbyhandmedium';
 }
+.navbar-brand{
+	float: none;
+	margin: 0 auto;
+}
+#mainnav{
+	text-align: center;
+}
+.socialMedia{
+	float: none;
+	margin: 0 auto;
+}
 @font-face {
     font-family: 'libbyhandmedium';
     src: url('../fonts/libbyhand-webfont.eot');
