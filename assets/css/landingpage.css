@@ -27,6 +27,7 @@ body{
 .navbar-brand{
 	float: none;
 	margin: 0 auto;
+	padding-right: 20px;
 }
 #mainnav{
 	text-align: center !important;
