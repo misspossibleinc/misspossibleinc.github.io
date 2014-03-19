@@ -22,7 +22,6 @@ body{
 }
 .navbar-nav li{
 	font-family: 'libbyhandmedium';
-	padding-top: 15px;
 	padding-right: 20px;
 }
 .navbar-brand{
@@ -35,6 +34,7 @@ body{
 .socialMedia{
 	float: none;
 	margin: 0 auto;
+	padding-top: 5px;
 }
 @font-face {
     font-family: 'libbyhandmedium';
