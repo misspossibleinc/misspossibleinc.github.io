@@ -1,0 +1,273 @@
+@charset "UTF-8";
+html{
+	overflow-y: scroll;
+	height: 100%;
+}
+body{
+	background: url('../images/green_bkgrd-01.png') no-repeat center center fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	max-width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 50px;
+	height: 100%;
+	padding-bottom: 30px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'AmandaRae';
+	padding: 0px 10px 0px 10px;
+}
+hr{
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+p{
+	font-family: 'Century Gothic';
+	padding: 0px 10px 0px 10px;
+}
+footer{
+	background-color: #cfe8cf;
+	height: 60px;
+	padding: 10px;
+}
+@media (max-width: 1024px){
+	footer{
+		margin-left: -20px;
+		margin-right: -20px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
+.wrapper{
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin-bottom: -60px;
+	background-color: white;
+}
+.banner{
+	padding: 0px;
+	width: 100%;
+	background-color: white !important;
+}
+.banner .container{
+	padding: 0px;
+}
+.banner img{
+	width: 100%;
+}
+.timeline{
+	width: 100%;
+}
+/*.wrapper:after{
+	content: "";
+	display: block;
+	height: 40px;
+}*/
+.navbar {
+	background-color: #cfe8cf !important;
+	width: 100%;
+	max-width: 1024px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.navbar-nav li{
+	font-family: 'libbyhandmedium';
+	font-size: 20px;
+}
+.navbar-nav li:hover{
+	background-color: white;
+}
+.navbar-brand{
+	padding: 0px;
+	margin: 0px;
+}
+.navbar-brand img{
+	height: 50px;
+	padding: 0px;
+}
+#branding{
+	float: right;
+	padding-top: 13px;
+}
+.dropdown-menu li{
+	font-family: "Century Gothic";
+}
+.dropdown-menu li:hover .sub-menu {
+    visibility: visible;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.dropdown .dropdown-menu{
+	background-color: #cfe8cf;
+}
+.jumbotron{
+	background-image: url('../images/bannerbackground.png');
+	background-color: #a641bc;
+	width: 100%;
+}
+.bannerTop{
+	font-family: 'bebas_neueregular';
+	font-size: 72px !important;
+	color: white !important;
+}
+.carousel-inner{
+	height: 500px;
+	overflow: hidden;
+}
+.carousel-inner>.item>img{
+	margin: 0 auto;
+	height: 500px;
+}
+.carousel-caption{
+	color: black;
+}
+.rotate90{
+	-webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+.teamMembers{
+	width:300px; 
+	height:300px;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+}
+.socialMediaContact ul{
+	list-style-type: none;
+}
+.socialMediaContact li{
+	display: inline;
+	padding-right: 10px;
+}
+.socialMedia{
+	width: 100px;
+	height: 100px;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 50px;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+}
+.row{
+	padding: 10px !important;
+}
+.quotes{
+	padding: 0px 0px 10px 0px !important;
+	margin-bottom: 10px !important;
+	background-color: white;
+}
+.hpquotes{
+	width: 300px;
+}
+#aboutlogo{
+	margin-left: 20px;
+	float: right;
+	width: 200px;
+}
+#founders{
+	width: 300px;
+	height: auto;
+	margin-left: 20px;
+	float: right;
+}
+.pressPics{
+	width: 400px;
+}
+.shop{
+	width: 95%;
+}
+.teamMemberSocialMedia ul{
+	list-style-type: none;
+	padding: 0px !important;
+}
+.teamMemberSocialMedia li{
+	display: inline;
+	padding-right: 5px;
+	font-family: "Century Gothic";
+}
+.smTeamMember{
+	width: 30px;
+	height: 30px;
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+}
+.footerLinkList ul{
+	list-style-type: none;
+}
+.footerLinkList li{
+	display: inline;
+	padding: 2px;
+	font-family: "Century Gothic";
+	font-weight: bold;
+}
+.socialMediaFooter ul{
+	list-style-type: none;
+}
+.socialMediaFooter li{
+	display: inline;
+	padding: 5px;
+	font-weight: bold;
+	font-family: "Century Gothic";
+}
+.socialMediaFooter a{
+	color: #a641bc;
+}
+.smFooter{
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+}
+.push{
+	height: 60px;
+}
+#foot{
+	background-color: #cfe8cf;
+	padding: 0px !important;
+	margin: 0px !important;
+}
+@font-face {
+    font-family: 'libbyhandmedium';
+    src: url('../fonts/libbyhand-webfont.eot');
+    src: url('../fonts/libbyhand-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/libbyhand-webfont.woff') format('woff'),
+         url('../fonts/libbyhand-webfont.ttf') format('truetype'),
+         url('../fonts/libbyhand-webfont.svg#libbyhandmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('../fonts/glyphicons-halflings-regular.ttf');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded opentype'), 
+  	   url('../fonts/glyphicons-halflings-regular.woff') format('woff'), 
+  	   url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), 
+  	   url('../fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+}
+@font-face{
+	font-family: 'AmandaRae';
+	src: url('../fonts/amandarae.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'bebas_neueregular';
+    src: url('../fonts/bebasneue-webfont.eot');
+    src: url('../fonts/bebasneue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bebasneue-webfont.woff') format('woff'),
+         url('../fonts/bebasneue-webfont.ttf') format('truetype'),
+         url('../fonts/bebasneue-webfont.svg#bebas_neueregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
